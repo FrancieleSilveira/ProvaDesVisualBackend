@@ -1,0 +1,13 @@
+### Cadastrar um novo filme
+POST https://localhost:5001/api/filme/create
+Content-Type: application/json
+
+{
+    "Titulo" : "Titanic",
+    "Genero" : "Drama",
+    "Ano" : 1998,
+    "Diretor" : "James Cameron"
+}
+
+### Listar todos os filmes
+GET https://localhost:5001/api/filme/list
